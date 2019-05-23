@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>超级简历</title>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css">
+		<link rel="stylesheet" type="text/css" href="layui/css/HomeWork.css" />
+		<script type="text/javascript" src="layui/layui.js"></script>
+		<script type="text/javascript" src="Js/hhh.js"></script>
+	</head>
+	<body style="background: #F2F2F2;">
+		<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+		<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+		
+		<ul class="layui-nav" style="background: black; margin-left: 10px;">
+			<li class="layui-nav-item">
+				<a href="">最新活动</a>
+			</li>
+			<li class="layui-nav-item ">
+				<a href="javascript:;">产品</a>
+			</li>
+			<li class="layui-nav-item">
+				<a href="">大数据</a>
+			</li>
+			<li class="layui-nav-item">
+				<a href="javascript:;">解决方案</a>
+			</li>
+			<li class="layui-nav-item">
+				<a href="">社区</a>
+			</li>
+		</ul>
+		<!--选择你的简历 -->
+		<div class="layui-row " style="width: 70%;  margin-top: 60px;">
+			<div class="layui-col-md12 layui-col-xs12 " style="text-align: center; margin-left: 230px;">
+				<li style="font-size: 35px; ">选择你的简历模板</li>
+			</div>
+		</div>
+		<!--成功率 -->
+		<div class="layui-row " style="width: 70%;  margin-top: 30px;">
+			<div class="layui-col-md12 layui-col-xs12 " style="text-align: center; margin-left: 229px;">
+				<li style="font-size: 17px; color: darkgray;">选对专业的简历模板，帮你提高2倍求职成功率</li>
+			</div>
+		</div>
+		<!--上4个 -->
+		<div class="layui-row12 layui-col-xs12" style="height: 245px; width: 100%; margin-top: 50px;">
+			<div class="layui-row layui-col-space1" >
+				<div class="layui-col-md2 main" style="height: 245px; width: 16%;background: white; margin-left: 210px; border-radius: 10px;">
+					<div class="mask" id="layerDemos" >
+						<button data-method="offset" data-type="auto" class="layui-btn layui-btn-primary border mouse button">中文模板</button>
+						<button class="layui-btn layui-btn-primary border mouse"style="margin-top: 50px; margin-left: 70px; " >英文模板</button>
+					</div>
+					<div class="grid-demo"><img src="layui/images/zero-exp-icon.png" style="margin-top: 50px; margin-left: 87px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">零经验实习模板</li>
+						<li class="longwrite">此模板适用于学生找实习，第一次工作，没有实验经历的同学</li>
+					</div>
+
+				</div>
+				<div class="layui-col-md2" style="height: 245px; width: 16%;background: white;margin-left: 38px;border-radius: 10px;">
+					<div class="mask">
+						<button class="layui-btn layui-btn-primary border mouse button" >中文模板</button>
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 50px; margin-left: 70px; ">英文模板</button>
+					</div>
+					<div class="grid-demo">
+						<img src="layui/images/tpl-college.png" style="margin-top: 50px; margin-left: 87px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">学生求职模板</li>
+						<li class="longwrite">此模板适用于学生找实习或全职工作，有一定实验经历的同学</li>
+					</div>
+				</div>
+				<div class="layui-col-md2" style="height: 245px; width: 16%;background: white;margin-left: 38px;border-radius: 10px;">
+					<div class="mask"> 
+						<button class="layui-btn layui-btn-primary border mouse button" >中文模板</button>
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 50px; margin-left: 70px; " >英文模板</button>
+					</div>
+					<div class="grid-demo">
+						<img src="layui/images/grad-temp-cn-icon@2x.png" style="margin-top: 50px; margin-left: 87px; height: 62px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">申请研究生模板</li>
+						<li class="longwrite">此模板适用于学生申请国内或海外的研究生，或考研复试时使用</li>
+					</div>
+				</div>
+				<div class="layui-col-md2" style="height: 245px; width: 16%;background: white;margin-left: 38px;border-radius: 10px;">
+					<div class="mask">
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 100px; margin-left: 70px;  ">英文模板</button>
+					</div>
+					<div class="grid-demo">
+						<img src="layui/images/tpl-plane.png" style="margin-top: 50px; margin-left: 87px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">本科留学生模板</li>
+						<li class="longwrite">此模板仅适用于高中生，申请国外本科留学，有针对性的英文案例和指导</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--下4个 -->
+		<div class="layui-row12 layui-col-xs12" style="height: 245px; width: 100%; margin-top: 30px;">
+			<div class="layui-row layui-col-space1">
+				<div class="layui-col-md2 " style="height: 245px; width: 16%;background: white; margin-left: 210px; border-radius: 10px;">
+					<div class="mask">
+						<button class="layui-btn layui-btn-primary border mouse button" >中文模板</button>
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 50px; margin-left: 70px; ">英文模板</button>
+					</div>
+					<div class="grid-demo"><img src="layui/images/tpl-classic.png" style="margin-top: 50px; margin-left: 87px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">经典工作模板</li>
+						<li class="longwrite">此模板适用有一年以上，想要变动的工作人士，适用于全行业</li>
+
+					</div>
+				</div>
+				<div class="layui-col-md2" style="height: 245px; width: 16%;background: white;margin-left: 38px;border-radius: 10px;">
+					<div class="mask">
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 60px; margin-left: 70px;  ">中文模板</button>
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 50px; margin-left: 70px; ">英文模板</button>
+					</div>
+					<div class="grid-demo"><img src="layui/images/tpl-investment.png" style="margin-top: 50px; margin-left: 87px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">投行咨询模板</li>
+						<li class="longwrite">此模板适用寻求投行，咨询，四大或者外企工作岗位的人士</li>
+					</div>
+				</div>
+				<div class="layui-col-md2" style="height: 245px; width: 16%;background: white;margin-left: 38px;border-radius: 10px;">
+					<div class="mask">
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 100px; margin-left: 70px;  ">中文模板</button>
+					</div>
+					<div class="grid-demo"><img src="layui/images/tpl-pm.png" style="margin-top: 50px; margin-left: 87px; height: 62px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">产品经理模板模板</li>
+						<li class="longwrite">此模板适用于申请互联网行业的产品相关岗位，有针对性的模板和指导</li>
+					</div>
+				</div>
+				<div class="layui-col-md2" style="height: 245px; width: 16%;background: white;margin-left: 38px;border-radius: 10px;">
+					<div class="mask">
+						<button class="layui-btn layui-btn-primary border mouse" style="margin-top: 100px; margin-left: 70px;  ">中文模板</button>
+					</div>
+					<div class="grid-demo"><img src="layui/images/tpl-programmer.png" style="margin-top: 50px; margin-left: 87px;" />
+						<li style="font-size: 16px; color: black; text-align: center; margin-top: 26px;">程序员模板</li>
+						<li class="longwrite"> 此模板适用于互联网行业的程序员和技术求职者找全职工作、跳槽时使用</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--按钮 -->
+		<div id="layerDemo">
+			<button data-method="offset" data-type="auto" class="layui-btn layui-btn-normal" style="border-radius: 5px;margin-top: 80px;margin-left:670px; width: 180px;height: 50px; background: red;">
+			<li style="font-size: 16px; color: white; text-align: center; margin-top: 5px;">定制你的模板</li>
+		</button>
+		</div>
+		<!--使用超级简历 -->
+		<div class="layui-row " style="width: 70%;  margin-top: 90px;">
+			<div class="layui-col-md12 layui-col-xs12 " style="text-align: center; margin-left: 230px;">
+				<li style="font-size: 35px; ">使用超级简历拿到名企Offer</li>
+			</div>
+		</div>
+		<!--通过超级简历 -->
+		<div class="layui-row " style="width: 70%;  margin-top: 20px;">
+			<div class="layui-col-md12 layui-col-xs12 " style="text-align: center; margin-left: 229px;">
+				<li style="font-size: 17px; color: darkgray;">已经通过超级简历，成功入职投行/咨询/BAT/五百强名企的大牛简历分享</li>
+			</div>
+		</div>
+		<!--下面的四个简历图片 -->
+		<div class="layui-row12 layui-col-xs12" style="height: 410px; width: 100%; margin-top: 50px;">
+			<div class="layui-row layui-col-space1">
+				<div class="layui-col-md3" style="margin-left: 100px;">
+					<!--<fieldset style="height: 410px; width: 40%;">
+						<img src="layui/images/example_cv4_cn.jpg" style=" height: 410px;" />
+					</fieldset>-->
+					<div class="imgs">
+						<img src="layui/images/example_cv4_cn.jpg" style=" height: 410px;" />
+					</div>
+					<li style="font-size: 16px; color: darkgray; margin-top: 10px;margin-left: 20px;">2018 纽约大学硕士|中信证券投行部</li>
+				</div>
+
+				<div class="layui-col-md3" style="margin-left: -50px;">
+					<!--<fieldset style="height: 410px; width: 40%;">
+						<img src="layui/images/example_cv2.png" style=" height: 410px;" />
+					</fieldset>-->
+					<div class="imgs">
+						<img src="layui/images/example_cv2.png" style=" height: 410px;" />
+					</div>
+					<li style="font-size: 16px; color: darkgray; margin-top: 10px; padding-left:15px;">2019 清华应届生|腾讯产品经理全职</li>
+				</div>
+				<div class="layui-col-md3" style="margin-left: -50px;">
+					<!--<fieldset style="height: 410px; width: 40%;">
+						<img src="layui/images/example_cv1_cn.png" style="height: 410px;" />
+					</fieldset>-->
+					<div class="imgs">
+						<img src="layui/images/example_cv1_cn.png" style=" height: 410px;" />
+					</div>
+					<li style="font-size: 16px; color: darkgray; margin-top: 10px; padding-left:30px;">2020 北大硕士|麦肯锡咨询实习生</li>
+				</div>
+				<div class="layui-col-md3" style="margin-left: -50px;">
+					<!--<fieldset style="height: 410px; width: 40%;">
+						<img src="layui/images/example_cv3.png" style="height: 410px;" />
+					</fieldset>-->
+					<div class="imgs">
+						<img src="layui/images/example_cv3.png" style=" height: 410px;" />
+					</div>
+					<li style="font-size: 16px; color: darkgray; margin-top: 10px; padding-left:30px;">6 年工作经验|滴滴人力资源总监</li>
+				</div>
+			</div>
+		</div>
+		<!--按钮 -->
+		<div>
+			<button class="layui-btn" style="border-radius: 5px;margin-top: 120px;margin-left:670px; width: 180px;height: 50px; background: red;">
+				<a href=""></a>
+			 	<li style="font-size: 19px; color: white; text-align: center; ">更多大牛简历</li>
+			 </button>
+			<div style="margin-top: 50px;margin-left:670px; width: 180px;height: 50px;"></div>
+		</div>
+	</body>
+
+</html>

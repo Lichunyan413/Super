@@ -1,0 +1,25 @@
+.learn{
+	display: flex;/*弹性布局*/
+	justify-content: space-between;
+}/*在div的元素中个周围都有空白*/
+.Images1{
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/kv1.jpg);/*图片地址*/
+	background-size: contain;/*把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域*/
+	background-repeat:no-repeat;/*图片不重复*/
+}
+.Images2{
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/kv2.jpg);/*图片地址*/
+	background-size: contain;/*把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域*/
+	background-repeat:no-repeat;/*图片不重复*/
+}
+.Images3{
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/kv3.jpg);/*图片地址*/
+	background-size: contain;/*把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域*/
+	background-repeat:no-repeat;/*图片不重复*/
+}

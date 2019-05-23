@@ -1,0 +1,69 @@
+.main {
+  width: 16%;
+  height: 245px;
+  background-color: #999;
+  border-radius: 10px;
+  /* 相对定位 */
+  position: relative; 
+}
+.mask {
+  /* 绝对定位 */
+  position: absolute;
+  width: 243px;
+  height: 241px;
+  background: white;
+  top: 0px;
+  border-radius: 10px;
+  /* 透明度，本来想用 hiddle的发现不行，搞错了，用透明度比较好一些 */
+  opacity: 0;
+}
+/* 鼠标移动之后，让透明度恢复1 */
+.mask:hover{
+  opacity: 1;
+}
+.layui-col-md main:hover{
+	position: absolute;
+  width: 16%;
+  height: 245px;
+  background: white;
+  top: 0px;
+  opacity: 0;
+}
+.border{/*边框*/
+	border-style: solid;
+	border-color: red;
+}
+.mouse{
+      background: white;
+      color:red;
+}
+.mouse:hover{
+      background: red;
+      color:white;
+}
+.button{
+	margin-top: 60px; 
+	margin-left: 70px;
+}
+.write{
+	font-size: 16px; 
+	color: black; 
+	text-align: center; 
+	margin-top: 26px;
+]}
+.longwrite{
+	font-size: 14px; 
+	color: darkgray; 
+	text-align: center; 
+	margin-top: 16px;
+}
+.div{
+	height: 410px;
+	width: 100%;
+	float: left;
+}
+.imgs{
+	display: block;
+	border: solid 2px darkgray;
+	width: 77%;
+}
